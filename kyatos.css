@@ -1,0 +1,58 @@
+body {
+    background-color: #805850;
+    font-family: 'Noto Sans', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Averia Serif Libre', cursive;
+    letter-spacing: 0.2ch;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: 0.5px solid underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.container {
+    padding-top: 7%;
+    width: 50vw;
+}
+
+.navlist {
+    box-sizing: border-box;
+    float: left;
+    padding: 3%;
+    width: 20vw;
+    font-size: 0.9em;
+}
+
+.reminder {
+    background-color: rgba(255, 218, 218, 0.4);
+    border-radius: 15px;
+    display: inline;
+    padding: 0.9%;
+}
+
+.intro {
+    border: 0.5px solid rgba(255, 218, 218, 0.2);
+    border-radius: 15px;
+    padding: 4%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.chinese {
+    font-family: 'Noto Serif SC', serif;
+}
