@@ -1,13 +1,29 @@
 body {
     background-color: #805850;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: whitesmoke;
+    background-image: linear-gradient(115deg, #805850, whitesmoke);
+    background-size: 180vwh;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 h1 {
     font-family: 'Averia Serif Libre', cursive;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
 }
 
 a {
@@ -25,9 +41,17 @@ p {
     font-size: 0.9em;
 }
 
+img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;   
+}
+
 .container {
     padding-top: 7%;
     width: 50vw;
+    height: 120vh;
 }
 
 .navlist {
@@ -45,12 +69,17 @@ p {
     padding: 0.9%;
 }
 
-.intro {
+.notice {
     border: 0.5px solid rgba(255, 218, 218, 0.2);
     border-radius: 15px;
     padding: 4%;
     margin-top: 25px;
     margin-bottom: 15px;
+}
+
+.quote {
+    font-size: 0.95em;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 .chinese {
