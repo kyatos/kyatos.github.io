@@ -2,11 +2,9 @@ body {
     background-color: #805850;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-    background-image: linear-gradient(115deg, #805850, whitesmoke);
-    background-size: 300vwh;
+    background-image: linear-gradient(180deg, rgb(150, 126, 126), #805850);
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 h1 {
@@ -34,7 +32,7 @@ a {
 a:hover {
     color: white;
     text-decoration: none;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
 p {
@@ -44,14 +42,44 @@ p {
 img {
     max-height: 100%;
     max-width: 100%;
-    margin-left: 4%;
-    margin-right: 4%;   
+}
+
+.worklistings {
+    display: inline;
+    flex: none;
+}
+
+.siteheader {
+    box-sizing: border-box;
+    float: right;
+    padding: 3%;
 }
 
 .container {
     padding-top: 7%;
     width: 50vw;
     height: 120vh;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(255, 218, 218, 0.2);
+}
+
+.closer {
+    padding: 0.5rem;
+}
+
+.btn {
+    color: whitesmoke;
+}
+
+.btn:hover {
+    color: rgb(184, 155, 155);
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 .navlist {
@@ -88,7 +116,6 @@ img {
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 80vw;
+        width: 65vw;
     }
 }
-
