@@ -1,8 +1,8 @@
 body {
-    background-color: #805850;
+    background-color: #ffffff;
     font-family: 'Nunito', sans-serif;
-    color: whitesmoke;
-    background-image: linear-gradient(180deg, rgb(150, 126, 126), #805850);
+    color: rgb(39, 39, 39);
+    background-image: linear-gradient(180deg, rgb(128, 203, 247), #ffffff);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 200%;
@@ -26,14 +26,14 @@ h1 a:hover {
 }
 
 a {
-    color: white;
+    color: rgb(39, 39, 39);
     text-decoration: 0.5px solid underline;
 }
 
 a:hover {
-    color: white;
+    color: rgb(39, 39, 39);
     text-decoration: none;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-shadow: 2px 2px 10px #fff, 2px 2px 10px rgb(230, 243, 255);
 }
 
 p {
@@ -51,6 +51,7 @@ img {
 }
 
 .siteheader {
+    color: white;
     box-sizing: border-box;
     float: right;
     padding: 3%;
@@ -72,11 +73,11 @@ img {
 }
 
 .btn {
-    color: whitesmoke;
+    color: rgb(39, 39, 39);
 }
 
 .btn:hover {
-    color: rgb(184, 155, 155);
+    color: rgb(129, 129, 129);
 }
 
 .btn:focus {
@@ -92,7 +93,7 @@ img {
 }
 
 .reminder {
-    background-color: rgba(255, 218, 218, 0.4);
+    background-color: rgba(255, 218, 218, 0.3);
     border-radius: 15px;
     display: inline;
     padding: 0.9%;
