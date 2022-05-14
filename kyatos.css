@@ -116,8 +116,13 @@ img {
     font-family: 'Noto Serif SC', serif;
 }
 
+
 @media screen and (max-width: 600px) {
     .container {
-        width: 65vw;
+        width: 70vw;
+    }
+
+    p {
+        font-size: 1em;
     }
 }
