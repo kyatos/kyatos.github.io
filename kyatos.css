@@ -25,6 +25,10 @@ h1 a:hover {
     text-shadow: none;
 }
 
+h2 {
+    font-size: 1.6em;
+}
+
 a {
     color: rgb(39, 39, 39);
     text-decoration: 0.5px solid underline;
@@ -59,8 +63,13 @@ img {
 
 .container {
     padding-top: 7%;
-    width: 60vw;
+    padding-left: 7%;
+    width: 70vw;
     height: 120vh;
+}
+
+.row {
+    width: 100%;
 }
 
 .card {
@@ -69,7 +78,20 @@ img {
 }
 
 .closer {
-    padding: 0.5rem;
+    padding: 0.5em;
+}
+
+.further {
+    padding: 1.2em;
+}
+
+.giant {
+    font-size: 4em;
+}
+
+.spacer {
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 .btn {
@@ -119,10 +141,10 @@ img {
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 70vw;
+        width: 80vw;
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 }
