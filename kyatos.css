@@ -1,11 +1,11 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #8a5840;
     font-family: 'Nunito', sans-serif;
-    color: rgb(39, 39, 39);
-    background-image: linear-gradient(180deg, rgb(128, 203, 247), #f0f0f0);
+    color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(180deg, rgb(255, 236, 125), #e3c5ff);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 200%;*/
 }
 
 h1 {
@@ -30,12 +30,12 @@ h2 {
 }
 
 a {
-    color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
     text-decoration: 0.5px solid underline;
 }
 
 a:hover {
-    color: rgb(39, 39, 39);
+    color: rgb(255, 140, 140);
     text-decoration: none;
     text-shadow: 2px 2px 10px #fff, 2px 2px 10px rgb(230, 243, 255);
 }
@@ -95,11 +95,11 @@ img {
 }
 
 .btn {
-    color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
 }
 
 .btn:hover {
-    color: rgb(129, 129, 129);
+    color: rgb(255, 140, 140);
 }
 
 .btn:focus {
