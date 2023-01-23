@@ -1,8 +1,7 @@
 body {
-    background-color: rgb(128, 74, 74);
-    ;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(255, 255, 255);
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
     /*background-image: linear-gradient(180deg, rgb(255, 236, 125), #e3c5ff);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,18 +9,18 @@ body {
 }
 
 h1 {
+    font-size: 2rem;
     font-family: 'Averia Serif Libre', cursive;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
 }
 
 h1 a {
-    color: white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 
 h1 a:hover {
-    color: white;
     text-decoration: none;
     text-shadow: none;
 }
@@ -31,23 +30,24 @@ h2 {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-decoration: 0.5px solid underline;
 }
 
 a:hover {
-    color: rgb(255, 140, 140);
+    color: rgb(181, 0, 66);
     text-decoration: none;
     text-shadow: 2px 2px 10px #fff, 2px 2px 10px rgb(230, 243, 255);
 }
 
-p {
-    font-size: 0.9em;
+p, ul, li {
+    font-size: 0.95em;
 }
 
 img {
     max-height: 100%;
     max-width: 100%;
+    padding-bottom: 20px;
 }
 
 .worklistings {
@@ -56,22 +56,14 @@ img {
 }
 
 .siteheader {
-    color: white;
     box-sizing: border-box;
-    float: right;
     padding: 3%;
 }
 
 .container {
-    padding-top: 7%;
-    padding-left: 7%;
-    width: 70vw;
-    height: 120vh;
+    padding-top: 3%;
 }
 
-.row {
-    width: 100%;
-}
 
 .card {
     background-color: rgba(0, 0, 0, 0);
@@ -83,7 +75,12 @@ img {
 }
 
 .further {
-    padding: 1.2em;
+    padding-right: 2%;
+}
+
+.indento {
+    padding-top: 1%;
+    padding-left: 3%;
 }
 
 .giant {
@@ -140,16 +137,33 @@ img {
 }
 
 
-@media screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 600px) {
     .container {
-        width: 80vw;
+        width: 94vw;
+    }
+    p {
+        font-size: 1.1em;
+        text-align: justify;
     }
 
-    p {
-        font-size: 1.2em;
+    ul, li {
+        font-size: 1.05em;
     }
 
     .navlist {
         font-size: 1.5em;
     }
+
+    .quote {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (min-width:  601px) and (max-width: 992px) {
+    .container {
+        width: 88vw;
+    }
+
 }
