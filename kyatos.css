@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(241, 254, 245);
+    background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(9, 78, 39);
+    color: black;
     /*background-image: linear-gradient(180deg, rgb(255, 236, 125), #e3c5ff);
     background-repeat: no-repeat;
     background-position: center;
@@ -136,6 +136,10 @@ img {
     font-family: 'Noto Serif SC', serif;
 }
 
+.pfp {
+    padding-right: 5%;
+}
+
 
 
 
@@ -159,11 +163,15 @@ img {
     .quote {
         font-size: 1.1em;
     }
+
+    .pfp {
+        padding-right: 0%;
+    }
 }
 
 @media only screen and (min-width:  601px) and (max-width: 992px) {
     .container {
-        width: 88vw;
+        width: 90vw;
     }
 
 }
