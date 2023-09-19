@@ -58,6 +58,7 @@ img {
 .siteheader {
     box-sizing: border-box;
     padding: 3%;
+    margin: auto;
 }
 
 .container {
@@ -128,7 +129,7 @@ img {
 }
 
 .quote {
-    font-size: 0.95em;
+    font-size: 1.2em;
     font-family: 'Averia Serif Libre', cursive;
 }
 
