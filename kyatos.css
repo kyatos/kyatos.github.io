@@ -40,6 +40,10 @@ a:hover {
     text-shadow: 2px 2px 10px #fff, 2px 2px 10px rgb(230, 243, 255);
 }
 
+p, ul, li {
+    font-size: 0.95em;
+}
+
 img {
     max-height: 100%;
     max-width: 100%;
@@ -127,6 +131,12 @@ img {
 .quote {
     font-size: 1.2em;
     font-family: 'Averia Serif Libre', cursive;
+}
+
+.date {
+    font-size: 0.8em;
+    font-weight:700;
+    font-weight:700;
 }
 
 .chinese {
