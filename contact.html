@@ -75,8 +75,8 @@
 
     <div class="container">
         <div class="row">
-            <h1>contact</h1><br><br><br>
-            <p>
+          <h1>contact</h1><br><br><br>
+          <p>
                 (∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:) <br><br><br>
 
                 <a href="mailto:kyatos@protonmail.com?subject=hello" class="quote" target="_blank">kyatos[at]protonmail[dot]com</a><br>
@@ -87,9 +87,36 @@
 
                 <a href="https://www.instagram.com/kyatos/" class="quote" target="_blank">@kyatos</a><br>
                 to put a face to a name<br><br>
-
               
-            </p>
+          </p>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+              <!-- Replace with your Access Key -->
+              <input type="hidden" name="access_key" value="4ac31bb9-b63e-48c0-8157-3d57af158b15">
+          
+              <!-- Form Inputs. Each input must have a name="" attribute -->
+              <div class="mb-3">
+                <label for="namein" class="form-label">name</label> 
+                <input type="text" name="name" id="namein" required><br>
+              </div>
+              <div class="mb-3">
+                <label for="emailin" class="form-label">email</label> 
+                <input type="email" name="email" id="emailin" required><br>
+              </div>
+              <div class="mb-3">
+                <label for="messagein" class="form-label">message</label> 
+                <textarea name="message" required></textarea><br>
+              </div>
+          
+              <!-- hCaptcha Spam Protection -->
+              <div class="h-captcha" data-captcha="true"></div>
+          
+              <button type="submit" class="btn btn-dark">Submit Form</button>
+          
+          </form>
+          <!-- Required for hCaptcha -->
+          <script src="https://web3forms.com/client/script.js" async defer></script>
         </div>
 
     </div>
