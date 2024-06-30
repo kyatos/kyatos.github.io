@@ -13,22 +13,12 @@ body {
 
 @font-face {
     font-family: Salma;
-    src: url(fonts/SalmaproMedium-yw9ad.otf);
-}
-
-@font-face {
-    font-family: Garamond Classic;
-    src: url(fonts/Classical\ Garamond\ Regular.otf)
-}
-
-@font-face {
-    font-family: Theano;
-    src: url(fonts/TheanoDidotRegular-R3pA.ttf);
+    src: url(fonts/SalmaproMedium-yw9ad.woff);
 }
 
 @font-face {
     font-family: Trail;
-    src: url(fonts/Trail-FREE.ttf);
+    src: url(fonts/Trail-FREE.woff);
 }
 
 h1 {
