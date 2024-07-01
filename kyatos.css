@@ -67,11 +67,12 @@ img {
 }
 
 .siteheader {
-    font-family: Salma, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
+    font-weight: 600;
     box-sizing: border-box;
     padding: 3%;
     margin: auto;
+    text-transform: uppercase;
 }
 
 .container {
