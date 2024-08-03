@@ -8,8 +8,6 @@ body {
     font-family: Salma, Arial, Helvetica, sans-serif;
     line-height: 170%;
     color: black;
-    cursor: url("images/cursor.png"), auto;
-    height: 100vh;
 }
 
 @font-face {
