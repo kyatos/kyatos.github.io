@@ -8,6 +8,7 @@ body {
     font-family: Salma, Arial, Helvetica, sans-serif;
     line-height: 170%;
     color: black;
+    min-height: 100%;
 }
 
 @font-face {
