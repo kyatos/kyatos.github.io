@@ -8,8 +8,6 @@ body {
     font-family: Salma, Arial, Helvetica, sans-serif;
     line-height: 170%;
     color: black;
-    min-height: 100%;
-    background-attachment: fixed;
 }
 
 @font-face {
@@ -24,7 +22,7 @@ body {
 
 h1 {
     font-size: 2rem;
-    font-family: Trail, Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Averia Serif Libre', Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
 }
@@ -68,18 +66,18 @@ img {
 }
 
 .siteheader {
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 400;
     box-sizing: border-box;
     padding: 3%;
     margin: auto;
-    text-transform: uppercase;
 }
+
+
 
 .container {
     padding-top: 3%;
 }
-
 
 .card {
     background-color: rgba(0, 0, 0, 0);
@@ -95,12 +93,13 @@ img {
 }
 
 .further {
-    padding-right: 2%;
+    padding-right: 4%;
 }
 
-.indento {
+.logentry {
     padding-top: 1%;
     padding-left: 3%;
+    padding-bottom: 7%;
 }
 
 .giant {
@@ -134,8 +133,17 @@ img {
     font-size: 0.9em;
 }
 
-.reminder {
-    background-color: rgba(255, 218, 218, 0.3);
+.tagimage {
+    background-color: rgba(246, 158, 158, 0.629);
+    font-size: 0.9em;
+    border-radius: 15px;
+    display: inline;
+    padding: 0.9%;
+}
+
+.tagtext {
+    background-color: rgba(35, 117, 225, 0.398);
+    font-size: 0.9em;
     border-radius: 15px;
     display: inline;
     padding: 0.9%;
@@ -151,7 +159,7 @@ img {
 
 .quote {
     font-size: 1.2em;
-    /*font-family: 'Averia Serif Libre', cursive;*/
+    
 }
 
 .date {
@@ -159,6 +167,7 @@ img {
     font-size: 0.9em;
     font-weight:700;
     letter-spacing: 0.2ch;
+    margin-bottom: 1%;
 }
 
 .chinese {
@@ -194,6 +203,10 @@ img {
     p, .btn {
         font-size: 1.1em;
         text-align: justify;
+    }
+
+    .logentry {
+        font-size: 1em;
     }
 
     .quote {

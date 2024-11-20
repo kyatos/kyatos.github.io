@@ -50,3 +50,5 @@ const randomDivine = () => {
 }
 
 button.addEventListener("click", randomDivine);
+
+
