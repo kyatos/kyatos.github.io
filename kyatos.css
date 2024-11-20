@@ -38,6 +38,7 @@ h1 a:hover {
 }
 
 h2 {
+    font-family: 'Averia Serif Libre', Georgia, 'Times New Roman', Times, serif;
     font-size: 1.6em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
@@ -111,9 +112,10 @@ img {
 }
 
 .btn {
-    background-color: rgb(49, 75, 93);
+    background-color: rgb(99, 58, 90);
     border-style: none;
     border-radius: 18px;
+    color:aliceblue;
 }
 
 /*.btn:hover {
@@ -132,28 +134,49 @@ img {
     font-size: 0.9em;
 }
 
-.tagimage {
+.caption {
+    font-size: 0.9em;
+    margin-bottom: 1%;
+}
+
+.readinfo {
+    font-size: 0.9em;
+    line-height: 110%;
+    margin-bottom: 1%;
+}
+
+.footnotes {
+    font-size: 0.8em;
+}
+
+.tagfiction {
     background-color: rgba(246, 158, 158, 0.629);
     font-size: 0.9em;
     border-radius: 15px;
     display: inline;
-    padding: 0.9%;
+    padding: 1%;
 }
 
-.tagtext {
+.tagpoetry {
     background-color: rgba(35, 117, 225, 0.398);
     font-size: 0.9em;
     border-radius: 15px;
     display: inline;
-    padding: 0.9%;
+    padding: 1%;
+}
+
+.poetry {
+    line-height: 125%;
 }
 
 .notice {
-    border: 0.5px solid rgba(255, 218, 218, 0.2);
-    border-radius: 15px;
-    padding: 4%;
+    border: 1px solid rgb(82, 15, 67);
+    border-radius: 20px;
+    padding: 2%;
     margin-top: 25px;
     margin-bottom: 15px;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 .quote {
