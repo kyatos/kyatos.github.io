@@ -135,18 +135,18 @@ img {
 }
 
 .caption {
-    font-size: 0.9em;
+    font-size: 1em;
     margin-bottom: 1%;
 }
 
 .readinfo {
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 110%;
     margin-bottom: 1%;
 }
 
 .footnotes {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .tagfiction {
@@ -186,7 +186,7 @@ img {
 
 .date {
     /*font-family: 'Averia Serif Libre', cursive;*/
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight:700;
     letter-spacing: 0.2ch;
     margin-bottom: 1%;
