@@ -238,7 +238,7 @@ img {
     .container {
         width: 94vw;
     }
-    p, .btn {
+    p, .btn, li {
         font-size: 1.1em;
         text-align: justify;
     }
