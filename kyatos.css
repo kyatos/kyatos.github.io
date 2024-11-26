@@ -103,7 +103,10 @@ img {
 }
 
 .giant {
-    font-size: 4em;
+    color: rgb(54, 56, 57);
+    font-size: 6em;
+    font-family: 'Averia Serif Libre', Georgia, 'Times New Roman', Times, serif;
+    line-height: 2ch;
 }
 
 .spacer {
@@ -243,7 +246,7 @@ img {
         text-align: justify;
     }
 
-    .logentry, .readinfo, .caption {
+    .logentry, .readinfo {
         font-size: 1.05em;
     }
 
