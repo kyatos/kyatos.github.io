@@ -76,6 +76,11 @@ a:hover {
     text-shadow: 2px 2px 10px #474700, 2px 2px 10px rgb(230, 243, 255);
 }
 
+li {
+    margin-left:25px;
+
+}
+
 
 img {
     max-height: 100%;
@@ -165,6 +170,12 @@ img {
 .caption {
     font-size: 1em;
     margin-bottom: 1%;
+}
+
+.description {
+    font-family: 'ArialNova', Arial, Helvetica, sans-serif;
+    font-size: 0.55em;
+    line-height: 170%;
 }
 
 .readinfo {
@@ -279,6 +290,42 @@ img {
     left: 120px;
 }
 
+#starsone {
+    position:absolute;
+    top: 35%;
+    left: 75%;
+    width: 40vw;
+    opacity: 80%;
+}
+
+#starstwo {
+    position:absolute;
+    top: 5%;
+    left: -12%;
+    width: 30vw;
+    opacity: 80%;
+}
+
+#starsthree {
+    position:absolute;
+    top: 145%;
+    left: -2%;
+    width: 30vw;
+    opacity: 80%;
+}
+
+#back {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+
+
+}
+
+#back a {
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         width: 94vw;
@@ -314,6 +361,11 @@ img {
         padding: 1.0em;
     }
 
+    #back {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    }
 }
 
 @media only screen and (min-width:  601px) {
