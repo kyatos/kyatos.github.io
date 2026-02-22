@@ -57,6 +57,10 @@ nav {
     overflow: hidden;
 }
 
+.container {
+    margin-top: -6%;
+}
+
 .siteheader {
     font-size: 2em;
     font-weight: 400;
@@ -181,7 +185,7 @@ nav {
 
 @media only screen and (max-width: 767px) {
     .container {
-        margin-top: 8%;
+        margin-top: 6%;
     }
 
     .navlist {
