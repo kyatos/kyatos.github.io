@@ -85,7 +85,7 @@ nav {
 .theme, .date {
     font-family: 'Oskon','Times New Roman', Times, serif;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 0.2ch;
 }
 
@@ -133,35 +133,35 @@ nav {
 }
 
 .tagperf {
-    background-color: rgba(246, 158, 158, 0.242);
+    background-color: rgba(79, 55, 55, 0.242);
 }
 
 .tagdirect {
-    background-color: rgba(173, 93, 238, 0.242);
+    background-color: rgba(111, 61, 152, 0.242);
 }
 
 .tagpoet {
-    background-color: rgba(35, 117, 225, 0.242);
+    background-color: rgba(32, 70, 120, 0.242);
 }
 
 .tagfict {
-    background-color: rgba(56, 201, 201, 0.242);
+    background-color: rgba(27, 101, 101, 0.242);
 }
 
 .tagastro {
-    background-color: rgba(225, 203, 41, 0.242);
+    background-color: rgba(166, 150, 29, 0.242);
 }
 
 .tagcommu {
-    background-color: rgba(38, 186, 95, 0.242);
+    background-color: rgba(13, 125, 56, 0.242);
 }
 
 .tagmusic {
-    background-color: rgba(255, 136, 18, 0.242);
+    background-color: rgba(152, 88, 23, 0.242);
 }
 
 .tagexhib {
-    background-color: rgba(201, 56, 172, 0.242);
+    background-color: rgba(128, 36, 109, 0.242);
 }
 
 #floattext1{
@@ -186,6 +186,7 @@ nav {
 
     .navlist {
         text-align: right;
+        font-size: 0.8em;
     }
 
 }
@@ -199,12 +200,6 @@ nav {
 
     .navitem {
         display: block;
-    }
-
-    .container {
-        margin-right: 2%;
-        margin-top: -5%;
-        width: 80vw;
     }
 
 }
