@@ -42,7 +42,7 @@ a {
 a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    text-shadow: 2px 2px 10px #ffffb7, 2px 2px 10px rgb(230, 243, 255);
+    text-shadow: 2px 2px 10px #fbfbae, 3px 3px 10px rgb(230, 243, 255);
 }
 
 img {
