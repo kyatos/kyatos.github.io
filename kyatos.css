@@ -1,7 +1,7 @@
 body {
     background-color: #f3f3f3;
     font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.65em;
     line-height: 120%;
     color:rgb(42, 36, 35);
     padding: 10px;
@@ -71,10 +71,6 @@ nav {
     text-decoration: 0.5px solid rgb(36, 36, 36) underline;
     }
 
-.chinese {
-    font-family: 'Noto Serif SC', serif;
-    font-size: 0.75em;
-}
 
 .notes {
     font-family: 'ArialNova', Arial, Helvetica, sans-serif;
@@ -102,6 +98,15 @@ nav {
 .toast {
     width: 200px;
     position: absolute;
+}
+
+.toast-body {
+    font-size:1.2rem;
+}
+
+.chinese {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 0.75em;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -195,7 +200,7 @@ nav {
 
     .navlist {
         text-align: right;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
 }
