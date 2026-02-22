@@ -99,6 +99,11 @@ nav {
     font-size: 1.05rem;
 }
 
+.toast {
+    width: 200px;
+    position: absolute;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
