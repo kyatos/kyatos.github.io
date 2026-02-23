@@ -189,6 +189,11 @@ nav {
     left: 120px;
 }
 
+#starfield {
+    position: absolute;
+    z-index: -1;
+}
+
 @media only screen and (max-width: 767px) {
     .container {
         margin-top: 6%;
@@ -203,7 +208,7 @@ nav {
 
 @media only screen and (min-width:  768px) {
     .container {
-        margin-top: -6%;
+        margin-top: -8%;
         margin-left: 22%;
     }
     .navlist {
