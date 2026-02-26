@@ -16,3 +16,19 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+//music player //
+
+document.querySelector('.playpause').addEventListener('click', playpause);
+ 
+function playpause() {
+    if(document.querySelector('.playpause').innerHTML == '<i class="fas fa-play"></i>') {
+        document.querySelector('#musicsrc').play();
+        document.querySelector('.playpause').innerHTML = '<i class="fas fa-pause"></i>';
+      } 
+    else {
+        document.querySelector('#musicsrc').pause();
+        document.querySelector('.playpause').innerHTML = '<i class="fas fa-play"></i>';
+      }
+ 
+  }
