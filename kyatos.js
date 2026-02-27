@@ -56,7 +56,7 @@ const button = document.querySelector("#divinebtn");
 const fortune = document.querySelector("#fortune");
 
 const randomDivine = () => {
-    const rando = Math.floor(Math.random() * 14);
+    const rando = Math.floor(Math.random() * 12);
     fortune.innerHTML = divinations[rando];
 }
 
