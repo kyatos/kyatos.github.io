@@ -75,8 +75,8 @@ img {
 
 .notes {
     font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 0.8em;
-    line-height: 160%;
+    font-size: 0.4em;
+    line-height: 170%;
 }
 
 .notes a {
@@ -86,7 +86,7 @@ img {
 .theme, .date {
     font-size: 1rem;
     font-weight: 600;
-    line-height: 70%;
+    line-height: 120%;
     letter-spacing: 0.2ch;
 }
 
