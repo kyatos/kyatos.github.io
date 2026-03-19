@@ -1,8 +1,9 @@
 body {
     background-color: #f3f3f3;
     font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 1.65em;
-    line-height: 120%;
+    font-size: 1.7em;
+    line-height: 115%;
+    font-weight: 400;
     color:rgb(42, 36, 35);
     padding: 10px;
 }
@@ -12,26 +13,35 @@ body {
     src: url(fonts/ArialNova.woff);
 }
 
-@font-face {
-    font-family: Trail;
-    src: url(fonts/Trail-FREE.woff);
-}
 
 @font-face {
     font-family: Oskon;
     src: url(fonts/ZTBrosOskon90s-Regular.woff);
 }
 
+@font-face {
+    font-family: HenryMorganHand;
+    src: url(fonts/HenryMorganHand.woff)
+}
+
+@font-face {
+    font-family: YRDZST;
+    src: url(fonts/YRDZST\ Medium.woff)
+}
+
 h1 {
-    font-size: 2em;
+    
+    font-size: 2.5em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
+    font-size: 2.3em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
+
 }
 
 a {
@@ -52,6 +62,8 @@ img {
 }
 
 nav {
+    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
+    font-size: 1.6em;
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -69,9 +81,9 @@ nav {
 
 
 .notes {
-    font-family: 'ArialNova', Arial, Helvetica, sans-serif;
-    font-size: 0.65em;
-    line-height: 170%;
+    font-family: 'Oskon', 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    line-height: 160%;
 }
 
 .notes a {
@@ -79,15 +91,15 @@ nav {
 }
 
 .theme, .date {
-    font-family: 'Oskon','Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 1rem;
+    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    line-height: 70%;
     letter-spacing: 0.2ch;
 }
 
 .poetry {
     line-height: 160%;
-    font-family: 'ArialNova', Arial, Helvetica, sans-serif;
+    font-family: 'Oskon', 'Times New Roman', Times, serif;
     font-size: 1.05rem;
 }
 
@@ -101,7 +113,7 @@ nav {
 }
 
 .chinese {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'YRDZST', serif;
     font-size: 0.75em;
 }
 
@@ -134,8 +146,8 @@ nav {
 /* TAGS */
 
 .tag {
-    font-family: 'ArialNova', Arial, Helvetica, sans-serif;
-    font-size: 0.6em;
+    font-family: 'Oskon', 'Times New Roman', Times, serif;
+    font-size: 0.8em;
     border-radius: 50px;
     padding: 4px;
     margin: 7px;
@@ -172,6 +184,10 @@ nav {
 
 .tagexhib {
     background-color: rgba(128, 36, 109, 0.242);
+}
+
+.taglight {
+    background-color: rgba(196, 196, 179, 0.242);
 }
 
 #floattext1{

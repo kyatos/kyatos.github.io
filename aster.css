@@ -13,26 +13,36 @@ body {
     src: url(fonts/ArialNova.woff);
 }
 
-@font-face {
-    font-family: Trail;
-    src: url(fonts/Trail-FREE.woff);
-}
 
 @font-face {
     font-family: Oskon;
     src: url(fonts/ZTBrosOskon90s-Regular.woff);
 }
 
+@font-face {
+    font-family: HenryMorganHand;
+    src: url(fonts/HenryMorganHand.woff)
+}
+
+@font-face {
+    font-family: YRDZST;
+    src: url(fonts/YRDZST\ Medium.woff)
+}
+
 h1 {
-    font-size: 2em;
+    
+    font-size: 2.5em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
+    font-size: 2.3em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
+    line-height: 80%;
+
 }
 
 a {
