@@ -75,7 +75,7 @@ img {
 
 .notes {
     font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 160%;
 }
 
@@ -84,9 +84,9 @@ img {
 }
 
 .theme, .date {
-    font-family: 'Oskon','Times New Roman', Times, serif;
-    font-weight: 600;
     font-size: 1rem;
+    font-weight: 600;
+    line-height: 70%;
     letter-spacing: 0.2ch;
 }
 

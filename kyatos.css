@@ -87,7 +87,7 @@ nav {
 
 .notes {
     font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 160%;
 }
 
@@ -96,8 +96,8 @@ nav {
 }
 
 .theme, .date {
-    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    font-size: 2.3rem;
+    font-size: 1rem;
+    font-weight: 600;
     line-height: 70%;
     letter-spacing: 0.2ch;
 }
