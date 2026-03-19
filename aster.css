@@ -13,7 +13,6 @@ body {
     src: url(fonts/ArialNova.woff);
 }
 
-
 @font-face {
     font-family: Oskon;
     src: url(fonts/ZTBrosOskon90s-Regular.woff);
@@ -27,6 +26,11 @@ body {
 @font-face {
     font-family: YRDZST;
     src: url(fonts/YRDZST\ Medium.woff)
+}
+
+@font-face {
+    font-family: One;
+    src: url(fonts/1.woff)
 }
 
 h1 {
@@ -70,9 +74,9 @@ img {
 
 
 .notes {
-    font-family: 'ArialNova', Arial, Helvetica, sans-serif;
-    font-size: 0.65em;
-    line-height: 170%;
+    font-family: 'Oskon', 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    line-height: 160%;
 }
 
 .notes a {
