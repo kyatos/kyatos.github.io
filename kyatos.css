@@ -103,6 +103,13 @@ nav {
     letter-spacing: 0.2ch;
 }
 
+.credit {
+    margin-top: -3%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 100%;
+}
+
 .poetry {
     line-height: 160%;
     font-family: 'Oskon', 'Times New Roman', Times, serif;
