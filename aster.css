@@ -60,16 +60,9 @@ a:hover {
     text-shadow: 2px 2px 10px #fbfbae, 3px 3px 10px rgb(230, 243, 255);
 }
 
-img {
-    max-height: 100%;
-    max-width: 100%;
-    padding-bottom: 20px;
-}
-
 .container {
     margin-top: 12px;
     margin-left: 12px;
-    width: 100%;
 }
 
 
@@ -92,7 +85,7 @@ img {
 
 .footer {
     margin-bottom: 10px;
-    font-size: 0.5em;
+    font-size: 0.65em;
     position: fixed;
     bottom: 0;
     left: 1;
@@ -107,7 +100,6 @@ img {
     font-size:1.2rem;
     color:black;
 }
-
 
 #starfield {
     position: absolute;
@@ -201,3 +193,10 @@ animation: marquee 5s linear infinite;
     transform: translate(-100%, 0);
 }
 }
+
+#sampan {
+    position: absolute;
+    z-index: -1;
+    top: 130px;
+}
+
