@@ -1,8 +1,9 @@
 body {
-    background-image: radial-gradient(circle, rgb(227, 227, 227), rgb(17, 6, 49));
+    background-image: radial-gradient(circle, rgb(196, 194, 194), rgb(17, 6, 49));
     background-size: 500%;
-    font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 1.65em;
+    cursor: url('images/Sword.cur'), auto;
+    font-family: 'ArialNova', Arial, Helvetica, sans-serif;
+    font-size: 1em;
     line-height: 120%;
     color:rgb(233, 233, 233);
     padding: 10px;
@@ -35,14 +36,14 @@ body {
 
 h1 {
     
-    font-size: 2.5em;
+    font-size: 3.5em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
 }
 
 h2 {
     font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    font-size: 2.3em;
+    font-size: 3.3em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
     line-height: 80%;
@@ -67,8 +68,7 @@ a:hover {
 
 
 .notes {
-    font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 0.4em;
+    font-size: 0.6em;
     line-height: 170%;
 }
 
@@ -85,7 +85,7 @@ a:hover {
 
 .footer {
     margin-bottom: 10px;
-    font-size: 0.65em;
+    font-size: 0.8em;
     position: fixed;
     bottom: 0;
     left: 1;
@@ -115,7 +115,7 @@ grid-template-columns:20px auto;
 align-items:center;
 width: 200px;
  
-font-size:20px;
+font-size:16px;
 line-height:140%;
  
 background:rgb(74, 50, 86);
@@ -198,5 +198,6 @@ animation: marquee 5s linear infinite;
     position: absolute;
     z-index: -1;
     top: 130px;
+    width: 1200px;
 }
 

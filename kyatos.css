@@ -1,5 +1,5 @@
 body {
-    cursor: url('images/Mesa\ Blue.cur'), auto;
+    cursor: url('images/RWHand.cur'), auto;
     background-color: #ebebeb;
     font-family: 'Oskon', 'Times New Roman', Times, serif;
     font-size: 1.7em;
@@ -108,6 +108,13 @@ nav {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 100%;
+}
+
+.footer {
+    margin-bottom: 10px;
+    font-size: 0.65em;
+    bottom: 0;
+    text-align: right;
 }
 
 .poetry {
@@ -237,6 +244,10 @@ nav {
     z-index: -1;
 }
 
+#contain_moon {
+    font-size: 0.7em;
+}
+
 @media only screen and (max-width: 767px) {
     .container {
         margin-top: 6%;
@@ -248,7 +259,8 @@ nav {
 
     .navlist {
         text-align: right;
-        font-size: 0.9em;
+        font-size: 1em;
+        line-height: 0.2ch;
     }
 
 }
@@ -264,8 +276,12 @@ nav {
         margin-top: -2%;
     }
 
-    .navitem {
-        display: block;
+    #contain_moon {
+        margin-top: -70px;
     }
+
+    /*.navitem {
+        display: block;
+    }*/
 
 }
