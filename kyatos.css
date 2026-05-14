@@ -69,16 +69,20 @@ img {
 nav {
     font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
     font-size: 1.45em;
-    line-height: 90%;
-    position: sticky;
+    line-height: 95%;
+    /*position: sticky;*/
     top: 0;
     overflow: hidden;
 }
 
 .siteheader {
-    font-size: 2em;
+    font-size: 1.65em;
     font-weight: 400;
     padding: 1%;
+}
+
+.siteheader .chinese {
+    font-size: 0.55em;
 }
 
 .navitem a {
@@ -115,6 +119,10 @@ nav {
     font-size: 0.65em;
     bottom: 0;
     text-align: right;
+}
+
+.footer img {
+    height: 60px;
 }
 
 .poetry {
@@ -225,18 +233,20 @@ nav {
 #floattext1{
     font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
     color: rgba(112, 105, 99, 0.738);
-    font-size: 2.1em;
+    font-size: 1.8em;
     position: absolute;
     top: 10px;
+    z-index: -1;
 }
 
 #floattext2{
     font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
     color: rgba(108, 91, 91, 0.656);
-    font-size: 2.5em;
+    font-size: 2.2em;
     position: absolute;
     top: 45px;
     left: 120px;
+    z-index: -1;
 }
 
 #starfield {
@@ -255,12 +265,16 @@ nav {
 
     nav {
         font-size: 1.6em;
-    }      
+    }   
+    
+    nav img {
+    width: 85px;
+    }
 
     .navlist {
         text-align: right;
         font-size: 1em;
-        line-height: 0.2ch;
+        line-height: 0.6ch;
     }
 
 }

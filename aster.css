@@ -3,7 +3,7 @@ body {
     background-size: 500%;
     cursor: url('images/Sword.cur'), auto;
     font-family: 'ArialNova', Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 120%;
     color:rgb(233, 233, 233);
     padding: 10px;
@@ -43,7 +43,7 @@ h1 {
 
 h2 {
     font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    font-size: 3.3em;
+    font-size: 3.5em;
     letter-spacing: 0.2ch;
     margin-bottom: 10px;
     line-height: 80%;
