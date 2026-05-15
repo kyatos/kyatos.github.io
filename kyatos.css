@@ -229,6 +229,9 @@ nav {
     background-color: rgba(22, 53, 180, 0.242);
 }
 
+
+/*id items*/
+
 #floattext1{
     font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
     color: rgba(112, 105, 99, 0.738);
@@ -255,6 +258,19 @@ nav {
 
 #contain_moon {
     font-size: 0.7em;
+}
+
+#statuscafe {
+    padding: .5em;
+}
+#statuscafe-username {
+    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
+    margin-bottom: 0.4em;
+    font-size: 0.85em;
+}
+#statuscafe-content {
+    font-size: 0.7em;
+    margin: 0 1em 0.5em 1em;
 }
 
 @media only screen and (max-width: 767px) {
@@ -310,4 +326,89 @@ nav {
         display: block;
     }*/
 
+}
+
+
+
+/* music player */
+
+#musicplayer{
+display:grid;
+grid-template-columns:20px auto;
+align-items:center;
+width: 200px;
+ 
+font-size:16px;
+line-height:140%;
+ 
+background:#fdfde3;
+ 
+border: none;
+border-radius: 10px;
+ 
+}
+ 
+#musictitle{
+overflow: hidden;
+white-space: nowrap;
+display:inline-block;
+width: calc(100% - 10px - 1px);
+margin-left: calc(10px + 1px);
+}
+ 
+#musicpixel{
+width:100%;
+padding:5px;
+position:relative;
+min-height: 20px;
+background:#ffff97;
+border-right: 1px solid black;
+}
+ 
+ 
+.overlay {
+opacity:0;
+position:absolute;
+top:0;
+left:0;
+text-align:center;
+width:100%;
+height:100%;
+transition:0.3s ease;
+background:rgb(197, 197, 197);
+}
+ 
+#musicplayer:hover .overlay {
+opacity: 1;
+transition:0.3s ease;
+}
+ 
+.playpause{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+ 
+.playpause:hover{
+cursor:help;
+}
+ 
+#musicpixel img{
+display:block;
+}
+ 
+.marquee{
+display: inline-block;
+padding-left: 100%;
+animation: marquee 5s linear infinite;
+}
+ 
+@keyframes marquee{
+0% {
+    transform: translate(0, 0);
+}
+100% {
+    transform: translate(-100%, 0);
+}
 }

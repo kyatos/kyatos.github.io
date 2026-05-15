@@ -22,7 +22,7 @@ for (i = 0; i < acc.length; i++) {
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-//music player
+//cyborg music player
 
 document.querySelector('.playpause').addEventListener('click', playpause);
  
