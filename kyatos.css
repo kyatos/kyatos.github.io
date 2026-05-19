@@ -18,7 +18,7 @@ body {
     background-color: #181411f5;
     background-blend-mode: multiply;
     font-family: Work Sans, Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 120%;
     font-weight: 400;
     color:rgb(228, 227, 227);
@@ -75,7 +75,7 @@ nav a:hover {
 
 .siteheader {
     font-family: Drunk, Oskon, 'Times New Roman', Times, serif;
-    font-size: 2.5em;
+    font-size: 2.4em;
     font-weight: 600;
     letter-spacing: 0.9ch;
     padding: 1%;
@@ -96,7 +96,7 @@ nav h1 a:hover {
 }
 
 li {
-    margin:10px;
+    margin: 10px;
 }
 
 footer {
@@ -203,7 +203,6 @@ footer {
     background-color: transparent;
     color:rgb(228, 227, 227);
 }
-
 
 .card {
     border: 3px double #ccc;
