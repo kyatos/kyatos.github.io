@@ -1,63 +1,43 @@
-body {
-    cursor: url('images/RWHand.cur'), auto;
-    background-color: #ebebeb;
-    font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 1.7em;
-    line-height: 115%;
-    font-weight: 400;
-    color:rgb(42, 36, 35);
-    padding: 10px;
-}
-
-@font-face {
-    font-family: ArialNova;
-    src: url(fonts/ArialNova.woff);
-}
-
 @font-face {
     font-family: Oskon;
     src: url(fonts/ZTBrosOskon90s-Regular.woff);
 }
 
 @font-face {
-    font-family: HenryMorganHand;
-    src: url(fonts/HenryMorganHand.woff)
+    font-family: Drunk;
+    src: url(fonts/DRUNKFONTS-Regular.woff)
 }
 
 @font-face {
-    font-family: YRDZST;
-    src: url(fonts/YRDZST\ Medium.woff)
+    font-family: Hanyi;
+    src: url(fonts/HanyiSentyFingerPainting\ Regular.woff)
 }
 
-@font-face {
-    font-family: One;
-    src: url(fonts/1.woff)
+body {
+    cursor: url('images/RWHand.cur'), auto;
+    background-color: #181411f5;
+    background-blend-mode: multiply;
+    font-family: Work Sans, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 120%;
+    font-weight: 400;
+    color:rgb(228, 227, 227);
+    padding: 20px;
 }
 
-h1 {
-    
-    font-size: 2.5em;
-    letter-spacing: 0.2ch;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    font-size: 2.3em;
-    letter-spacing: 0.2ch;
-    margin-bottom: 10px;
-
+h1, h2, h3, h4 {
+    font-family: Oskon, 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
 
 a {
-    color:rgb(0, 0, 0);
-    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-decoration: 2px solid underline;
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    text-shadow: 5px 5px 10px #ffff85, 3px 3px 10px rgb(230, 243, 255);
+    color: #6c1515f5;
+    
 }
 
 img {
@@ -67,265 +47,317 @@ img {
 }
 
 nav {
-    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    font-size: 1.45em;
-    line-height: 95%;
-    top: 0;
-    overflow: hidden;
+    text-align: center;
+    line-height: 140%;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav a:hover {
+    border-radius: 30px;
+    border: 3px double #ccc;
+    font-weight: 600;
+    text-shadow: 
+    -1px -1px 0 #252525,  
+     1px -1px 0 #252525,
+    -1px  1px 0 #252525,
+     1px  1px 0 #252525;
+}
+
+.navlink {
+    font-family: Oskon, 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 
 .siteheader {
-    font-size: 1.65em;
-    font-weight: 400;
+    font-family: Drunk, Oskon, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0.9ch;
     padding: 1%;
+    text-decoration: none;
 }
 
 .siteheader .chinese {
-    font-size: 0.55em;
+    font-size: 1.4em;
 }
 
-.navitem a {
-    text-decoration: 0.5px solid rgb(36, 36, 36) underline;
-    }
+nav h1 a {
+    text-decoration: none;
+}
 
-.notes {
-    font-family: 'Oskon', 'Times New Roman', Times, serif;
+nav h1 a:hover {
+    border: none;
+    color: rgb(228, 227, 227);
+}
+
+li {
+    margin:10px;
+}
+
+footer {
     font-size: 0.8em;
-    line-height: 160%;
 }
 
-.notes a {
-    text-decoration: 0.5px solid rgb(36, 36, 36) underline;
-}
-    
-
-.theme, .date {
-    font-size: 1rem;
+.navhead {
+    margin-top:0%;
     font-weight: 600;
-    line-height: 70%;
-    letter-spacing: 0.2ch;
+    letter-spacing: 0.5ch;
 }
 
-.credit {
-    margin-top: -3%;
-    font-size: 0.9rem;
+.subb {
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+.btn {
+    font-family: Oskon, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    border-radius: 25px;
+    color: rgb(228, 227, 227);
+    background-color: #6c1515f5;
+}
+
+.logo {
+    width: 30%; 
+    padding-top: 10%;
+}
+
+.chinese {
+    font-family: Hanyi, serif;
+    font-size: 1.1em;
     font-weight: 400;
-    line-height: 100%;
 }
 
 .footer {
     margin-bottom: 10px;
-    font-size: 0.65em;
+    font-size: 0.75em;
     bottom: 0;
     text-align: right;
 }
 
-.footer img {
-    height: 60px;
+
+.scrollbox {
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    border: 3px double #ccc;
+    border-radius: 10px;
+    font-size: 0.9em;
+    overflow: auto;
+}
+
+.scrollboxshort {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    border: 3px double #ccc;
+    border-radius: 10px;
+    font-size: 0.9em;
+    overflow: auto;
+}
+
+.scrollboxlong {
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    border: 3px double #ccc;
+    border-radius: 10px;
+    font-size: 0.9em;
+    overflow: auto;
+}
+
+.ptitle {
+    font-family: Oskon, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+}
+
+.psub {
+    font-size: 1em;
+}
+
+.footnotes {
+    font-size: 0.8em;
 }
 
 .poetry {
-    line-height: 160%;
-    font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 1.05rem;
+    line-height: 2.4ch;
 }
 
-.toast {
-    width: 200px;
-    position: absolute;
+.credit {
+    margin-top: -7px;
+    margin-bottom: 30px;
+    font-size: 0.8em;
 }
 
-.toast-body {
-    font-size:1.2rem;
+.table {
+    font-size: 1em;
+    color:rgb(228, 227, 227);
 }
 
-.chinese {
-    font-family: 'Noto Serif SC', serif;
-    font-size: 0.75em;
+.table>:not(caption)>*>* {
+    background-color: transparent;
+    color:rgb(228, 227, 227);
 }
+
+
+.card {
+    border: 3px double #ccc;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#emailHelp {
+    color:azure;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #38322df5;
+  color: #ffffff;
   cursor: pointer;
-  padding: 9px 14px;
+  padding: 22px 14px;
   width: 100%;
   text-align: left;
   border: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   outline: none;
   transition: 0.3s;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #cccccc;
+  background-color: #636363;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 9px 14px;
-  background-color: white;
+  padding: 20px 20px;
+  background-color: #fffffff5;
+  color:#4a433cf5;
   display: none;
   overflow: hidden;
+  border-radius: 10px;
+}
+
+.panel a {
+    color:#4a433cf5;
 }
 
 /* TAGS */
 
 .tag {
     font-family: 'Oskon', 'Times New Roman', Times, serif;
-    font-size: 0.8em;
+    font-size: 1.1em;
     border-radius: 50px;
-    padding: 4px;
-    margin: 7px;
+    padding: 7px;
+    line-height: 40px;
     display: inline;
 }
 
 .tagperf {
-    background-color: rgba(128, 36, 109, 0.242);
+    background-color: rgba(128, 36, 109, 0.584);
 }
 
 .tagdirect {
-    background-color: rgba(111, 61, 152, 0.242);
+    background-color: rgba(111, 61, 152, 0.584);
 }
 
 .tagpoet {
-    background-color: rgba(32, 70, 120, 0.242);
+    background-color: rgba(32, 70, 120, 0.584);
 }
 
 .tagfict {
-    background-color: rgba(27, 101, 101, 0.242);
+    background-color: rgba(27, 101, 101, 0.584);
+}
+
+.tagscript {
+    background-color:rgba(168, 130, 96, 0.584);
 }
 
 .tagastro {
-    background-color: rgba(166, 150, 29, 0.242);
+    background-color: rgba(166, 150, 29, 0.584);
 }
 
 .tagcommu {
-    background-color: rgba(13, 125, 56, 0.242);
+    background-color: rgba(13, 125, 56, 0.584);
 }
 
 .tagmusic {
-    background-color: rgba(152, 23, 23, 0.242);
+    background-color: rgba(217, 245, 118, 0.584);
 }
 
 .tagexhib {
-    background-color: rgba(79, 55, 55, 0.242);
+    background-color: rgba(36, 46, 123, 0.584);
 }
 
 .taglight {
-    background-color: rgba(196, 196, 179, 0.242);
+    background-color: rgba(196, 196, 179, 0.584);
 }
 
 .tagws {
-    background-color: rgba(255, 128, 0, 0.242);
+    background-color: rgba(255, 128, 0, 0.584);
 }
 
 .tagparti {
-    background-color: rgba(15, 135, 168, 0.242);
+    background-color: rgba(15, 135, 168, 0.584);
 }
 
 .tagaudipod {
-    background-color: rgba(22, 53, 180, 0.242);
+    background-color: rgba(22, 53, 180, 0.584);
 }
 
-
-/*id items*/
-
-#floattext1{
-    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    color: rgba(112, 105, 99, 0.738);
-    font-size: 1.8em;
-    position: absolute;
-    top: 10px;
-    z-index: -1;
+.tagvid {
+    background-color:rgba(136, 176, 63, 0.584);
 }
 
-#floattext2{
-    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    color: rgba(108, 91, 91, 0.656);
-    font-size: 2.2em;
-    position: absolute;
-    top: 45px;
-    left: 120px;
-    z-index: -1;
+.tagobj {
+    background-color:rgba(176, 63, 63, 0.584);
 }
 
-#starfield {
-    position: absolute;
-    z-index: -1;
-}
-
-#contain_moon {
-    font-size: 0.7em;
-}
-
-#statuscafe {
-    padding: .5em;
-}
-#statuscafe-username {
-    font-family: 'HenryMorganHand', 'Times New Roman', Times, serif;
-    margin-bottom: 0.4em;
-    font-size: 0.85em;
-}
-#statuscafe-content {
-    font-size: 0.7em;
-    margin: 0 1em 0.5em 1em;
-}
-
-@media only screen and (max-width: 767px) {
-    .container {
-        margin-top: 6%;
-    }
-
-    nav {
-        font-size: 1.6em;
-    }   
-    
-    nav img {
-        width: 85px;
-    }
-
-    .navlist {
-        text-align: right;
-        font-size: 1em;
-        line-height: 0.9ch;
-    }
-
-    .footer {
-        font-size: 0.55em;
-    }
-
-    .footer img {
-    height: 50px;
-    }   
-
-}
 
 @media only screen and (min-width: 768px) {
     .container {
-        margin-top: -3%;
-        margin-left: 22%;
+        padding-top: 25px;
+        width: 50vw;
     }
 
-    nav {
-        position: sticky;
+    #map {
+    width: 50%;
     }
 
-    .navlist {
-        position: sticky;
-        margin-left: 1%;
-        margin-top: -2%;
+    .footer img {
+    width: 50px;
+    margin-bottom: -2%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    
+    .siteheader .chinese {
+        margin: -12%;
+        color: rgb(228, 227, 227);
     }
 
-    #contain_moon {
-        margin-top: -70px;
-    }
-
-    /*.navitem {
-        display: block;
-    }*/
-
+    .footer img {
+    width: 50px;
+    margin-bottom: -7%;
+    }   
 }
 
 
@@ -341,7 +373,7 @@ width: 200px;
 font-size:16px;
 line-height:140%;
  
-background:#fdfde3;
+background:#36362b;
  
 border: none;
 border-radius: 10px;
@@ -361,7 +393,7 @@ width:100%;
 padding:5px;
 position:relative;
 min-height: 20px;
-background:#ffff97;
+background:#3f3f3f;
 border-right: 1px solid black;
 }
  
@@ -412,3 +444,4 @@ animation: marquee 5s linear infinite;
     transform: translate(-100%, 0);
 }
 }
+

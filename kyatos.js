@@ -17,6 +17,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+
 //tooltips
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
