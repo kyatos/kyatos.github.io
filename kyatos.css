@@ -178,7 +178,7 @@ footer {
 }
 
 .psub {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .footnotes {
@@ -209,6 +209,10 @@ footer {
     border: 3px double #ccc;
     border-radius: 10px;
     background-color: transparent;
+}
+
+.collapse .card {
+    border: none;
 }
 
 #emailHelp {
