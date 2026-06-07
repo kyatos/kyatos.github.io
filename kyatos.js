@@ -49,6 +49,31 @@ document.addEventListener("mousemove", (event) => {
     elem.style.top = mousey + 'px';
 });
 
+//copypaste
+
+function copyToClipboard() {
+            // Select the input element
+            const copyText = document.getElementById("myInput");
+            const button = document.getElementById("myBtn");
+
+            // Use the modern Clipboard API to copy text
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => {
+                    // Visual feedback: change button text briefly
+                    button.innerText = "Copied!";
+                    button.style.backgroundColor = "#28a745"; // Green success color
+
+                    // Reset button back to normal after 2 seconds
+                    setTimeout(() => {
+                        button.innerText = "Copy";
+                        button.style.backgroundColor = "#007BFF";
+                    }, 2000);
+                })
+                .catch(err => {
+                    console.error("Failed to copy text: ", err);
+                });
+        }
+
   //divine
 
 const divinations = [

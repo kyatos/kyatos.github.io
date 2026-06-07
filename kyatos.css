@@ -224,6 +224,17 @@ footer {
     height: 100%;
 }
 
+#statusbox {
+    height: 145px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 2ch;
+    overflow: auto;
+}
+
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -259,6 +270,46 @@ footer {
 .panel a {
     color:#4a433cf5;
 }
+
+/* Styling the container box */
+        .copy-container {
+            display: flex;
+            max-width: 300px;
+            padding: 8px;
+            border: 2px solid #ccc;
+            border-radius: 14px;
+            background-color: #dfdfdf;
+            margin: -5px 10px;
+        }
+
+        /* Styling the input field */
+        .copy-input {
+            flex-grow: 1;
+            border: none;
+            outline: none;
+            padding: 4px;
+            font-size: 15px;
+            font-weight: 600;
+            color:#6c1515f5;
+            background: transparent;
+        }
+
+        /* Styling the copy button */
+        .copy-btn {
+            background-color: #181411f5;
+            color: white;
+            border: none;
+            padding: 4px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Hover effect for the button */
+        .copy-btn:hover {
+            background-color: #6c1515f5;
+        }
 
 /* TAGS */
 
