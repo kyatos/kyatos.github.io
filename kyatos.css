@@ -37,7 +37,6 @@ a {
 
 a:hover {
     color: #6c1515f5;
-    
 }
 
 img {
@@ -104,6 +103,20 @@ footer {
     font-size: 0.8em;
 }
 
+.marq {
+    background-image: linear-gradient(rgba(47, 47, 47, 0.6), rgba(57, 57, 57, 0.6)), url(images/water.gif);
+    width: 100vw;
+    padding: 10px;
+    margin-left: -6%;
+    margin-right: -4%;
+    box-shadow: 0 0 4px 4px #211b17f5 inset;
+}
+
+.marq a:hover {
+    color: white;
+    border:none; 
+}
+
 .navhead {
     margin-top:0%;
     font-weight: 600;
@@ -140,7 +153,6 @@ footer {
     bottom: 0;
     text-align: right;
 }
-
 
 .scrollbox {
     height: 250px;
@@ -275,7 +287,7 @@ footer {
         .copy-container {
             display: flex;
             max-width: 300px;
-            padding: 8px;
+            padding: 9px;
             border: 2px solid #ccc;
             border-radius: 14px;
             background-color: #dfdfdf;
@@ -287,7 +299,7 @@ footer {
             flex-grow: 1;
             border: none;
             outline: none;
-            padding: 4px;
+            padding: 5px;
             font-size: 15px;
             font-weight: 600;
             color:#6c1515f5;
@@ -299,7 +311,7 @@ footer {
             background-color: #181411f5;
             color: white;
             border: none;
-            padding: 4px 12px;
+            padding: 5px 12px;
             border-radius: 8px;
             cursor: pointer;
             font-size: 14px;
@@ -386,7 +398,7 @@ footer {
 @media only screen and (min-width: 768px) {
     .container {
         padding-top: 25px;
-        width: 50vw;
+        width: 60vw;
     }
 
     #map {
