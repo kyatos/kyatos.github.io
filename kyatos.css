@@ -104,12 +104,12 @@ footer {
 }
 
 .marq {
-    background-image: linear-gradient(rgba(47, 47, 47, 0.6), rgba(57, 57, 57, 0.6)), url(images/water.gif);
+    background-color: rgb(37, 16, 16);
     width: 100vw;
     padding: 10px;
     margin-left: -6%;
     margin-right: -4%;
-    box-shadow: 0 0 4px 4px #211b17f5 inset;
+    box-shadow: 1px 1px 5px 5px #211b17f5 inset;
 }
 
 .marq a:hover {
