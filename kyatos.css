@@ -19,7 +19,7 @@ body {
     background-blend-mode: multiply;
     font-family: Work Sans, Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    line-height: 120%;
+    line-height: 125%;
     font-weight: 400;
     color:rgb(228, 227, 227);
     padding: 20px;
@@ -104,12 +104,10 @@ footer {
 }
 
 .marq {
-    background-color: rgb(37, 16, 16);
     width: 100vw;
     padding: 10px;
     margin-left: -6%;
     margin-right: -4%;
-    box-shadow: 1px 1px 5px 5px #211b17f5 inset;
 }
 
 .marq a:hover {
