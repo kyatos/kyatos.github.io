@@ -182,6 +182,11 @@ footer {
     overflow: auto;
 }
 
+.etitle {
+    font-family: Oskon, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
 .ptitle {
     font-family: Oskon, 'Times New Roman', Times, serif;
     font-size: 1.8em;
