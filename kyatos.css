@@ -23,7 +23,7 @@ body {
     background-color: #181411f5;
     background-blend-mode: multiply;
     font-family: Linux Biolinum, Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.25em;
     line-height: 125%;
     font-weight: 400;
     color:rgb(228, 227, 227);
@@ -75,14 +75,14 @@ nav a:hover {
 
 .navlink {
     font-family: Oskon, 'Times New Roman', Times, serif;
-    font-size: 1.6em;
+    font-size: 1.5em;
     padding-left: 0.5%;
     padding-right: 0.5%;
 }
 
 .siteheader {
     font-family: Drunk, Oskon, 'Times New Roman', Times, serif;
-    font-size: 2.35em;
+    font-size: 2.5em;
     font-weight: 600;
     letter-spacing: 0.6ch;
     padding: 1%;
@@ -92,7 +92,7 @@ nav a:hover {
 
 .siteheader .chinese {
     font-size: 1.4em;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 nav h1 a {
@@ -202,11 +202,11 @@ footer {
 }
 
 .psub {
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 .footnotes {
-    font-size: 0.8em;
+    font-size: 0.85em;
 }
 
 .poetry {
@@ -301,7 +301,7 @@ footer {
 /* Styling the container box */
         .copy-container {
             display: flex;
-            max-width: 300px;
+            max-width: 350px;
             padding: 9px;
             border: 2px solid #ccc;
             border-radius: 14px;
@@ -427,19 +427,36 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: 1.35em;
+    }
+    
     h1 {
         font-size: 2.2em;
     }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .siteheader {
+        font-size: 2.3em;
+        letter-spacing: 0.45ch;
+    }
     
     .siteheader .chinese {
-        margin: -14%;
+        margin: -12%;
         color: rgb(228, 227, 227);
     }
 
     .footer img {
     width: 50px;
     margin-bottom: -7%;
-    }   
+    }  
+    
+    .navlink {
+        font-size: 1.4em;
+    }
 }
 
 
