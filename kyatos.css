@@ -13,12 +13,17 @@
     src: url(fonts/HanyiSentyFingerPainting\ Regular.woff)
 }
 
+@font-face {
+    font-family: Linux Biolinum;
+    src: url(fonts/LinBiolinum_R.woff)
+}
+
 body {
     cursor: url('images/RWHand.cur'), auto;
     background-color: #181411f5;
     background-blend-mode: multiply;
-    font-family: Work Sans, Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-family: Linux Biolinum, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     line-height: 125%;
     font-weight: 400;
     color:rgb(228, 227, 227);
@@ -28,6 +33,10 @@ body {
 h1, h2, h3, h4 {
     font-family: Oskon, 'Times New Roman', Times, serif;
     font-weight: 600;
+}
+
+.container h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter {
+    font-family: Drunk, Oskon, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -42,7 +51,6 @@ a:hover {
 img {
     max-height: 100%;
     max-width: 100%;
-    padding-bottom: 20px;
 }
 
 nav {
@@ -84,6 +92,7 @@ nav a:hover {
 
 .siteheader .chinese {
     font-size: 1.4em;
+    opacity: 85%;
 }
 
 nav h1 a {
@@ -100,7 +109,7 @@ li {
 }
 
 footer {
-    font-size: 0.8em;
+    font-size: 0.85em;
 }
 
 .marq {
@@ -122,7 +131,7 @@ footer {
 }
 
 .subb {
-    font-size: 0.95em;
+    font-size: 1em;
     font-weight: 600;
 }
 
@@ -147,7 +156,7 @@ footer {
 
 .footer {
     margin-bottom: 10px;
-    font-size: 0.75em;
+    font-size: 0.85em;
     bottom: 0;
     text-align: right;
 }
@@ -158,7 +167,7 @@ footer {
     padding: 10px;
     border: 3px double #ccc;
     border-radius: 10px;
-    font-size: 0.9em;
+    font-size: 0.95em;
     overflow: auto;
 }
 
@@ -168,7 +177,7 @@ footer {
     padding: 10px;
     border: 3px double #ccc;
     border-radius: 10px;
-    font-size: 0.9em;
+    font-size: 0.95em;
     overflow: auto;
 }
 
@@ -178,7 +187,7 @@ footer {
     padding: 10px;
     border: 3px double #ccc;
     border-radius: 10px;
-    font-size: 0.9em;
+    font-size: 0.95em;
     overflow: auto;
 }
 
@@ -205,7 +214,6 @@ footer {
 }
 
 .credit {
-    margin-top: -7px;
     margin-bottom: 30px;
     font-size: 0.8em;
 }
@@ -244,11 +252,15 @@ footer {
     width: 100%;
     padding: 15px;
     border-radius: 10px;
-    font-size: 0.85em;
-    font-weight: 600;
-    line-height: 2ch;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 2.2ch;
     overflow: auto;
 }
+
+/* journal */
+
+
 
 
 /* Style the buttons that are used to open and close the accordion panel */
