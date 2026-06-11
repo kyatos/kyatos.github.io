@@ -148,15 +148,25 @@ footer {
     padding-top: 10%;
 }
 
+.journal {
+    line-height: 135%;
+}
+
 .chinese {
     font-family: Hanyi, serif;
     font-size: 1.1em;
     font-weight: 400;
 }
 
+.chinesesharp {
+    font-family: "Noto Serif SC", serif;
+    font-size: 0.95em;
+    font-weight: 400;
+}
+
 .footer {
     margin-bottom: 10px;
-    font-size: 0.85em;
+    font-size: 0.8em;
     bottom: 0;
     text-align: right;
 }
@@ -205,8 +215,15 @@ footer {
     font-size: 0.95em;
 }
 
+.jtitle {
+    font-family: Oskon, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight:600;
+    text-decoration: none;
+}
+
 .footnotes {
-    font-size: 0.85em;
+    font-size: 0.8em;
 }
 
 .poetry {
