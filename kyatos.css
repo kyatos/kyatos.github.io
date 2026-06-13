@@ -149,7 +149,15 @@ footer {
 }
 
 .journal {
-    line-height: 135%;
+    line-height: 140%;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+}
+
+.entries {
+    font-family:'Roboto Mono', 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    line-height: 110%;
 }
 
 .chinese {
