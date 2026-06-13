@@ -245,6 +245,14 @@ footer {
     color:rgb(228, 227, 227);
 }
 
+tbody, td, tfoot, th, thead, tr {
+    border-style: none;
+}
+
+tr {
+    border-bottom: 1px #ccc solid;
+}
+
 .card {
     border: 3px double #ccc;
     border-radius: 10px;
