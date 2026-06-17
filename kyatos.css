@@ -237,6 +237,8 @@ footer {
 
 .poetry {
     line-height: 2.4ch;
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    font-size: 0.8em;
 }
 
 .credit {
@@ -494,6 +496,10 @@ tr {
     
     .navlink {
         font-size: 1.4em;
+    }
+
+    .poetry {
+        font-size: 0.65em;
     }
 }
 
