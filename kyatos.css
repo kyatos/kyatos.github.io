@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: Day Roman;
+    src: url(fonts/DAYROM__.woff)
+}
+
+@font-face {
     font-family: Linux Biolinum;
     src: url(fonts/LinBiolinum_R.woff)
 }
